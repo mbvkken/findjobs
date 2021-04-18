@@ -25,7 +25,7 @@ class Add extends React.Component {
             const newJob = await addJob(job);
             changeView('', { id: newJob.id });
         } catch (error) {
-            console.log('add job failed', error)
+            console.log('Add job failed', error)
         }
     }
 
