@@ -36,7 +36,7 @@ class Details extends React.Component {
     async handleDeleteClick() {
         const { changeView, id } = this.props;
 
-        if (!window.confirm('u sure?')) {
+        if (!window.confirm('are u sure?')) {
             return;
         }
 
