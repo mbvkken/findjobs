@@ -42,7 +42,7 @@ class Edit extends React.Component {
             await updateJob(job);
             changeView('details', { id });
         } catch (error) {
-            console.log('editing job failed', error);
+            console.log('Editing job failed', error);
         }
     }
     
