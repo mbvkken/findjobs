@@ -76,6 +76,9 @@ class Overview extends React.Component {
                     &nbsp;
                     <button className="btn btn2">Browse Jobs</button>
                 </div>
+                <div className="search-bar">
+                    <input type="text" placeholder="Search"></input>
+                </div>
             
             <ul> {jobElements} </ul>
             

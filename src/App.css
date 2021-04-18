@@ -77,6 +77,16 @@ ul {
   text-align: center;
 }
 
+.search-bar {
+  display: grid;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .form-field {
   width: 100%;
   padding: 12px 20px;
@@ -86,4 +96,8 @@ ul {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+input {
+  padding: 10px;
 }
